@@ -1,10 +1,205 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Homepage </title>
+<title>Li Li</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+    font-family: Times-new-roman;
+    font-size: 14px;
+}
+
+/* Style the header */
+header{
+    /* background-color: #666; */
+    padding: 10px;
+    text-align: center;
+    width: 600px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: white; */
+}
+
+.content{
+    max-width: 750px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+.tab{
+    margin-left: 40px;
+}
+
+h1{
+    font-size: 16pt;
+	color: #2a7b88;
+}
+
+h2{
+	color: #2a7b88;
+    font-size: 14px
+}
+
+li{
+    mergin-top: 10px;
+    line-height: 1.5;
+    border:1px;
+}
+
+</style>
 </head>
 
 <body>
+<header>
+    <h1 id=top><b>Li Li</b></h1>
+    <p> Member of <a href=https://www.mmlab.cs.tsukuba.ac.jp/english/>Multimedia Lab</a>, <a href=http://www.tsukuba.ac.jp/>University of Tsukuba</a></p>
+    <p> Ph.D student in Department of Computer Science, Graduate school of Systems and Information Engineering, University of Tsukuba</p>
+    <p> lili[*at*]mmlab.cs.tsukuba.ac.jp</p>
+</header>
 
+<hr>
+
+<section>
+    <div class="content">
+    <h1 id="bio">Biography</h1>
+    <ul style="list-style-type:square">
+        <li><b>July 2014</b></li>
+            Bachelor of Engineering, Department of Information Management and Engineering, Shanghai University of Finance and Economics, China.
+        <li><b>Oct. 2014 -- Mar. 2016 </b></li>
+            Research student in Kameoka Lab and Saruwatari Lab, University of Tokyo, Japan.
+        <li><b>Apr. 2016 -- Mar. 2018 </b></li>
+            Master of Engineering, Department of Computer Science, Graduate School of Systems and Information Engineering, University of Tsukuba, Japan.
+        <li><b>Apr. 2018 -- Current </b></li>
+            Ph.D student in Department of Computer Science, Graduate School of Systems and Information Engineering, University of Tsukuba, Japan.
+        <li><b>Apr. 2018 -- Current </b></li>
+            Research fellow (DC1) of Japan Society of Promotion of Science (JSPS), Japan
+    </ul>
+        <p class="tab">My CV is available <a href="pdf/cv.pdf">here</a>. (Updated on Mar. 29, 2019)</p>
+   
+    <h1 id=interests>Research Interests </h1>
+    <ul style="list-style-type:square">
+        <li>Audio/speech signal processing</li>
+        <li>Source separation</li>
+        <li>Machine learning</li>
+    </ul>
+    
+    <h1 id=publication>Publications</h1>
+        <h2> Journal Papers </h2>
+        <ul style="list-style-type:decimal">
+    	    <li>Hirokazu Kameoka, Takuya Higuchi, Mikihiro Tanaka, and <u><b>Li Li</b></u>,
+                "<b>Non-negative Matrix Factorization with Basis Clustering Using Cepstral Distance Regularization</b>,"
+                <i>IEEE/ACM Transactions on Audio, Speech and Language Processing</i>, Vol. 26, No. 6, pp. 1025-1036, Jun. 2018.
+                (<a href="https://ieeexplore.ieee.org/abstract/document/8264769/">link</a>)
+                (<a href="http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/cdr-nmf/CDRNMF2016.htm">demo</a>)
+            </li>
+        </ul>
+    
+        <h2> Peer-reviewed International Conferences </h2>
+        <ul style="list-style-type:decimal">
+    	    <li><b><u>Li Li</b></u>, Hirokazu Kameoka, and Shoji Makino,
+                "<b>Fast MVAE: Joint separation and classification of mixed sources based on multichannel variational autoencoder with auxiliary classifier</b>,"
+                in Proc. <i>2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP2019)</i>, May 2019. (Accepted)</li>
+        
+    	    <li>Shota Inoue, Hirokazu Kameoka, <u><b>Li Li</b></u>, Shogo Seki, and Shoji Makino,
+                "<b>Joint separation and dereverberation of reverberant mixtures with multichannel variational autoencoder</b>,"
+                in Proc. <i>2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP2019)</i>, May 2019. (Accepted)</li>
+
+    	    <li><u><b>Li Li</b></u>, and Hirokazu Kameoka,
+                "<b>Deep clustering with gated convolutional networks</b>,"
+                in Proc. <i>2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP2018)</i>, pp. 16-20, Apr. 2018.
+                (<a href="pdf/LiICASSP2018_published.pdf">pdf</a>)
+            </li>
+
+    	    <li><u><b>Li Li</b></u>, Hirokazu Kameoka, and Shoji Makino,
+                "<b>Mel-generalized cepstral regularization with discriminative non-negative matrix factorization</b>,"
+                in Proc. <i>The 27th IEEE International Workshop on Machine Learning for Signal Processing (MLSP2017)</i>, Sep. 2017.
+                (<a href="pdf/LiMLSP2017_published.pdf">pdf</a>)
+            </li>
+
+    	    <li><u><b>Li Li</b></u>, Hirokazu Kameoka, Tomoki Toda, and Shoji Makino,
+                "<b>Speech enhancement using non-negative spectrogram models with mel-generalized cepstral regularization</b>,"
+                in Proc. <i>The 18th Annual Conference of the International Speech Communication Association (Interspeech2017)</i>, pp. 1998-2002, Aug. 2017.</li>
+
+            <li><u><b>Li Li</b></u>, Hirokazu Kameoka, and Shoji Makino,
+                "<b>Discriminative non-negative matrix factorization with majorization-minimization</b>,"
+                in Proc. <i>The 5th Joint Workshop on Hands-free Speech Communication and Microphone Arrays (HSCMA2017)</i>, pp. 141-145, Mar. 2017.</li>
+
+    	    <li><u><b>Li Li</b></u>, Hirokazu Kameoka, Takuya Higuchi, and Hiroshi Saruwatari,
+                "<b>Semi-supervised joint enhancement of spectral and cepstral sequences of noisy speech</b>,"
+                in Proc. <i>The 17th Annual Conference of the International Speech Communication Association (Interspeech 2016)</i>, pp. 3753-3757, Sep. 2016.</li>
+        </ul>
+
+        <h2> Preprint </h2>
+        <ul style="list-style-type:decimal">
+            <li>Hirokazu Kameoka, <b><u>Li Li</u></b>, Shota Inoue, Shoji Makino,
+                "<b>Semi-blind source separation with multichannel variational autoencoder</b>,"
+                <i>arXiv:1808.00892 [stat.ML]</i>, Aug. 2018.
+                (<a href="https://arxiv.org/abs/1808.00892">pdf</a>)
+                (<a href="http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/mvae-ass/index.html">Demo</a>)
+            </li>
+        </ul>
+
+        <h2> Non-reviewed Domestic Conferences </h2>
+        <ul style="list-style-type:decimal">
+            <li><b><u>李莉</u></b>，越野ゆき，松本光雄，牧野昭二，
+                “<b>Gated CNNを用いた劣悪な雑音環境下における音声区間検出</b>,”
+                電子情報通信学会技術研究報告, vol. 118, no. 495, EA2018-102, pp. 19-24，Mar. 2019.</li>
+
+            <li>関翔悟，亀岡弘和，<b><u>李莉</u></b>，戸田智基，武田一哉，
+                “<b>多チャンネル変分自己符号化器を用いた劣決定音源分離の評価</b>,”
+                電子情報通信学会技術研究報告, vol. 118, no. 495, EA2018-154， pp. 323-328，Mar. 2019.</li>
+
+            <li><b><u>李莉</u></b>，亀岡弘和，牧野昭二，
+                “<b>音源クラス識別器つき多チャンネル変分自己符号化器を用いた高速セミブラインド音源分離</b>,”
+                日本音響学会2019年春季研究発表会講演論文集，1-6-10，pp. 201-204, Mar.2019.</li>
+
+            <li>髙橋理希，山岡洸瑛，<b><u>李莉</u></b>，牧野昭二，山田武志，
+                “<b>時間周波数スイッチングビームフォーマとGated CNNを用いた時間周波数マスクの組み合わせによる劣決定音声強調</b>,”
+                日本音響学会2019年春季研究発表会講演論文集，1-6-5，pp. 181-184, Mar.2019.</li>
+
+            <li>関翔悟，亀岡弘和，<b><u>李莉</u></b>，戸田智基，武田一哉，
+                “<b>多チャンネル変分自己符号化器を用いた劣決定音源分離</b>,”
+                日本音響学会2019年春季研究発表会講演論文集，1-6-20，pp. 229-230, Mar.2019.</li>
+
+            <li>井上翔太，亀岡弘和，<b><u>李莉</u></b>，関翔悟，牧野昭二，
+                “<b>多チャンネル変分自己符号化器を用いた音源分離と残響除去の統合的アプローチ</b>,”
+                日本音響学会2019年春季研究発表会講演論文集，2-Q-32，pp. 399-402, Mar.2019.</li>
+
+    	    <li><b><u>李莉</u></b>, 亀岡弘和,
+                “<b>ゲート付きCNNを用いた深層クラスタリングによる音源分離</b>,”
+                日本音響学会2018年春季研究発表会講演論文集, 1-4-17, pp. 453-456, Mar. 2018.</li>
+
+    	    <li><b><u>李莉</u></b>, 亀岡弘和, 牧野昭二,
+                “<b>補助関数法による識別的NMFの基底学習アルゴリズム</b>,”
+                日本音響学会2017年春季研究発表会講演論文集, 1-P-4, pp. 519-522, Mar. 2017.</li>
+
+            <li>鄒雲漢，<b><u>李莉</u></b>，亀岡弘和,
+                “<b>Vocal tract spectrogram estimation with formant frequency contour factorization</b>,”
+                日本音響学会2017年春季研究発表会講演論文集, 1-Q-41, pp. 323-326, Mar. 2017.</li>
+
+    	    <li><u><b>李莉</b></u>，亀岡弘和，樋口卓哉，猿渡洋，牧野昭二，
+                “<b>音声のスペクトル領域とケプストラム領域における同時強調</b>,”
+                電子情報通信学会技術研究報告，vol. 116，no. 189，SP2016-32，pp. 29-32，Aug. 2016.</li>
+
+    	    <li><u><b>李莉</b></u>, 亀岡弘和, 樋口卓哉，猿渡洋,
+                “<b>ケプストラム距離正則化半教師ありNMF による音声強調</b>,”
+                日本音響学会2016年春季研究発表会講演論文集, 1-P-27, pp. 721-724, Mar. 2016.
+                <font color="#FE7F9C">[学生優秀発表賞]</font>
+            </li>
+        </ul>
+    
+    <h1> Awards </h1>
+    <ul style="list-style-type:decimal">
+    	<li>The 13th Best Student Presentation Award from The Acoustical Society of Japan (ASJ), Mar. 2016. </li>
+        <li>Chair Award of the Department of Computer Science, Graduate School of Systems and Information Engineering, University of Tsukuba, Mar. 2018. </li>
+        <li>The 2nd IEEE Signal Processing Society Tokyo Joint Chapter Student Award, Nov. 2018. </li>
+
+    
+    </ul>
+    </div>
+</section>
 </body>
 </html>
