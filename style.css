@@ -360,10 +360,10 @@ cite{
 
 .menu{
     float:none;
-    width:50%;
+    width:100%;
     margin:0px;
     padding:0px 15px 0px 5px;
-    height:40%;
+    height:100px;
 }
 
 .list1 li{
