@@ -398,10 +398,10 @@ cite{
     .icon{
         /* float:right;
         position: relative; */
-        /* width: 30%; */
-        position: absolute;
+        width: 30%;
+        position: relative;
         bottom: 8px;
-        right: 1px;
+        /* right: 1px; */
     }
     
     .icon img{
