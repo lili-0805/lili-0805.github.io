@@ -401,7 +401,7 @@ cite{
         width: 30%;
         position: absolute;
         bottom: 8px;
-        right: 2px;
+        right: 0;
     }
     
     .icon img{
