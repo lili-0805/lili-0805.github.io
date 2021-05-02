@@ -353,7 +353,7 @@ cite{
 
 .work{
     width:auto;
-    overflow: hidden ;
+    overflow: scroll ;
 }
 
 .text{
