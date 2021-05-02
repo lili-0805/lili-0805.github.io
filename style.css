@@ -47,7 +47,7 @@ body{
 }
 
 .box{
-    overflow: hidden ;		/* floatを解除する */
+    overflow: auto ;		/* floatを解除する */
 }
 
 .text{
