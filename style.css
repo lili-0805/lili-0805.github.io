@@ -396,9 +396,12 @@ cite{
     }
     
     .icon{
-        float:right;
-        position: relative;
+        /* float:right;
+        position: relative; */
         width: 30%;
+        position: absolute;
+        bottom: 8px;
+        right: 10px;
     }
     
     .icon img{
