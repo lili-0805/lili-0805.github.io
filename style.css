@@ -348,10 +348,12 @@ cite{
 .box{
     width:auto;
     height:150px;
+    overflow: hidden ;
 }
 
 .work{
     width:auto;
+    overflow: hidden ;
 }
 
 .text{
