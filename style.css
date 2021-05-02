@@ -399,7 +399,7 @@ cite{
         /* float:right;
         position: relative; */
         width: 30%;
-        position: relative;
+        position: absolute;
         bottom: 8px;
         right: 1px;
     }
