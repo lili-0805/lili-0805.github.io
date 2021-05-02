@@ -390,7 +390,7 @@ cite{
     }
     
     .list1 li{
-        display: inline-block;
+        display: inline;
         font-size: 90%;
     }
     
@@ -404,8 +404,8 @@ cite{
     .icon img{
         max-width: 20%;
         max-height: 20%;
-        width: 23;
-        height: 23;
+        width: 50;
+        height: 50;
         display: flex;
         justify-content: space-between;
     }
