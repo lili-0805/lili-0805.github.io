@@ -373,7 +373,7 @@ cite{
         float:left;
     }
     
-    .header.img{
+    .header img{
         max-width: 100% ;
         max-height: 100%;
         width:auto;
@@ -396,6 +396,13 @@ cite{
         float:right;
         padding-top:10px;
         width:20%;
+    }
+    
+    .icon img{
+        max-width: 50%;
+        max-height: 50%;
+        width: auto;
+        height: auto;
     }
 
     h3{
