@@ -408,6 +408,7 @@ cite{
         height: 50;
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
     }
 
     h3{
