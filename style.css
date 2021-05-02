@@ -358,15 +358,15 @@ cite{
     padding:10px;
 }
 
-.menu{
+/* .menu{
     float:none;
     width:100px;
     margin:0px;
     padding:0px 15px 0px 5px;
     height:150px;
-}
+} */
 
-header {
+.menu {
     display: flex;
     justify-content: space-between;
 }
