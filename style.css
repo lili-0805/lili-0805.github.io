@@ -346,14 +346,14 @@ cite{
 }
 
 .box{
-    width:100%;
+    width:auto;
     height:150px;
     float:left;
 }
 
 .work{
     float:left;
-    width:100%;
+    width:auto;
 }
 
 .text{
@@ -363,7 +363,7 @@ cite{
     padding:10px;
 }
 
-.menu {
+/* .menu {
     background-color:#eaf6f6;
     width:30%;
     position:sticky;
@@ -387,7 +387,7 @@ cite{
 .list1 li{
     display: inline;
     font-size:90%;
-}
+} */
 
 h3{
     font-size:120%;
