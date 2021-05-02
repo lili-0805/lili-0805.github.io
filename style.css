@@ -361,7 +361,7 @@ cite{
         width:auto;
         padding:30px 5px;
         position:relative;
-        height:150px;
+        height:100px;
     }
     
     .header{
@@ -374,20 +374,20 @@ cite{
     
     img{
         max-width: 50% ;
-      max-height: 90%;
-        height: auto;
-      vertical-align: bottom;
+        max-height: 90%;
+        width: 30%;
+        height: 30%;
+        vertical-align: bottom;
     }
     
     .list1{
-        width:50%;
+        width:40%;
         list-style:none;
         text-align:left;
         font-family: 'Montserrat', sans-serif;
     }
     
     .list1 li{
-        display: inline;
         font-size:90%;
     }
     
