@@ -398,14 +398,13 @@ cite{
     
     .icon{
         float:right;
-        padding-top:5px;
         position: relative;
         width: 30%;
     }
     
     .icon img{
-        max-width: 20%;
-        max-height: 20%;
+        max-width: 15%;
+        max-height: 15%;
         width: auto;
         height: auto;
     }
