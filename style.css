@@ -46,9 +46,9 @@ body{
     height:100%;
 }
 
-.box{
-    overflow: auto ;		/* floatを解除する */
-}
+/* .box{
+    overflow: hidden ;		/* floatを解除する */
+} */
 
 .text{
     margin:25px 0px;
