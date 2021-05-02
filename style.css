@@ -400,6 +400,7 @@ cite{
         float:right;
         padding-top:5px;
         position: relative;
+        width: 30%;
     }
     
     .icon img{
