@@ -406,6 +406,8 @@ cite{
         max-height: 20%;
         width: auto;
         height: auto;
+        display: flex;
+        justify-content: space-between;
     }
 
     h3{
