@@ -390,7 +390,8 @@ cite{
     }
     
     .list1 li{
-        font-size:90%;
+        display: inline-block;
+        font-size: 90%;
     }
     
     .icon{
