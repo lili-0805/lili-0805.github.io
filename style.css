@@ -392,8 +392,6 @@ cite{
         list-style:none;
         text-align:left;
         font-family: 'Montserrat', sans-serif;
-        /* display:flex;
-        flex-direction: column; */
     }
     
     .list1 li{
@@ -412,14 +410,8 @@ cite{
         max-height: 15%;
         width: auto;
         height: auto;
-    }
-
-    h3{
-        font-size:120%;
-    }
-
-    h2{
-        margin-bottom:-10px;
+        position: relative;
+        left: 30px;
     }
 
     h7{
