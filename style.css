@@ -376,8 +376,8 @@ cite{
     .header img{
         max-width: 90% ;
         max-height: 90%;
-        width:23;
-        height:23;
+        width:auto;
+        height:auto;
     }
     
     .list1{
@@ -404,8 +404,8 @@ cite{
     .icon img{
         max-width: 20%;
         max-height: 20%;
-        width: auto;
-        height: auto;
+        width: 23;
+        height: 23;
         display: flex;
         justify-content: space-between;
     }
