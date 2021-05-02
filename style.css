@@ -50,6 +50,11 @@ body{
     overflow: hidden ;	
 }
 
+.icon img{
+    padding-top: 10pt;
+    padding-left: 5pt;
+}
+
 .text{
     margin:25px 0px;
     padding:5px;
