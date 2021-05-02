@@ -401,9 +401,6 @@ cite{
         padding-top:5px;
         position: relative;
         width: 20%;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
     }
     
     .icon img{
