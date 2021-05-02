@@ -341,60 +341,67 @@ cite{
 
 {
 
-.base{
-    width:auto;
-}
+    .base{
+        margin:0 auto;
+        width:auto;
+    }
+    
+    .box{
+        overflow: hidden;		/* floatを解除する */
+    }
+    
+    .work{
+        float:right;
+        width:auto;
+        padding:30px 15px 5px 15px;
+    }
+    
+    .menu{
+        background-color:#eaf6f6;
+        width:auto;
+        padding:30px 5px;
+        position:relative;
+        height:150px;
+    }
+    
+    .header{
+        width:30%;
+        height:100%;
+        padding:15px 5px;
+        text-align:center;
+        float:left;
+    }
+    
+    img{
+        max-width: 50% ;
+      max-height: 90%;
+        height: auto;
+      vertical-align: bottom;
+    }
+    
+    .list1{
+        width:50%;
+        list-style:none;
+        text-align:left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .list1 li{
+        display: inline;
+        font-size:90%;
+    }
+    
+    .icon{
+        float:right;
+        width:20%;
+    }
 
-.box{
-    width:auto;
-    height:150px;
-    overflow: hidden ;
-}
+    h3{
+        font-size:120%;
+    }
 
-.work{
-    width:auto;
-    overflow: scroll ;
-}
-
-.text{
-    float:none;
-    width:auto;
-    margin:0px;
-    padding:10px;
-}
-
-/* .menu {
-    background-color:#eaf6f6;
-    width:30%;
-    position:sticky;
-}
-
-.header{
-    float:left;
-    width:30%;
-}
-
-.list1{
-    width:50%;
-}
-
-.icon{
-    float:right;
-    width:10%;
-}
-
-
-.list1 li{
-    display: inline;
-    font-size:90%;
-} */
-
-h3{
-    font-size:120%;
-}
-
-h2{
-    margin-bottom:-10px;
-}
+    h2{
+        margin-bottom:-10px;
+    }
 
 }
