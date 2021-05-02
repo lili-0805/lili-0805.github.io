@@ -394,6 +394,8 @@ cite{
     .list1 li{
         display: inline;
         font-size: 90%;
+        display:flex;
+        flex-direction: column;
     }
     
     .icon{
