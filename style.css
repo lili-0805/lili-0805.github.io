@@ -387,6 +387,8 @@ cite{
         list-style:none;
         text-align:left;
         font-family: 'Montserrat', sans-serif;
+        display:flex;
+        flex-direction: column;
     }
     
     .list1 li{
