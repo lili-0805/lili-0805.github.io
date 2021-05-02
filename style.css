@@ -367,13 +367,24 @@ cite{
 } */
 
 .menu {
-    display: flex;
-    justify-content: space-between;
+    background-color:#eaf6f6;
+    width:auto;
+    position:fixed;
+    height:150px;
 }
 
+.header{
+    float:left;
+    width:30%;
+}
 
-.list1 {
-    display: flex
+.list1{
+    width:50%;
+}
+
+.icon{
+    float:right;
+    width=10%;
 }
 
 
