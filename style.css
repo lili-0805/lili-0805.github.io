@@ -366,8 +366,13 @@ cite{
     height:150px;
 }
 
+.site-header {
+    display: none;
+}
+
+
 .list1 li{
-    display: inline-block;
+    display: inline;
     font-size:90%;
 }
 
